@@ -33,10 +33,10 @@ class Solution:
         list2 = str2.split(" ")
         lyst = []
         for x in list1:
-            if x not in lyst:
+            if x not in lyst and x:
                 lyst.append(x)
         for x in list2:
-            if x not in lyst:
+            if x not in lyst and x:
                 lyst.append(x)
         return lyst
 
